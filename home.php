@@ -6,5 +6,9 @@
  * @twitter https://twitter.com/thesoftwareguy7
  * @googleplus https://plus.google.com/+thesoftwareguyIn
  */
-header("Location:home.php");
+
+require("../libs/config.php");
+$pageTitle = "Welcome to the Admin Area";
+include("header.php");
+include("footer.php");
 ?>

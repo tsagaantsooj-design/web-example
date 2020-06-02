@@ -1,19 +1,11 @@
-			</div>
-		</div>
-		<div id="footer-wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="12u">
-						<div id="copyright">
-							<a href="http://www.thesoftwareguy.in" target="_blank">&copy; 2013 - <?php echo date("Y"); ?> www.thesoftwareguy.in</a> All rights Reserved. | Template taken from: <a href="http://html5up.net"> &copy; HTML5 UP</a> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	<!-- ********************************************************* -->
-	<script src="js/config.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-panels.min.js"></script>
-	</body>
+        </article>
+        <div class="height30"></div>
+        <footer>
+         <div class="copyright">&copy; thesoftwareguy All rights Reserved</div>
+         <div class="footerlogo"><a href="http://www.thesoftwareguy.in" target="_blank"><img src="http://www.thesoftwareguy.in/thesoftwareguy-logo-small.png" width="200" height="47" alt="thesoftwareguy logo" /></a>
+        </footer>
+    </div>
+</div>
+</body>
 </html>
+
