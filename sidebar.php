@@ -1,15 +1,7 @@
 <?php
-/*
- * @author Shahrukh Khan
- * @website http://www.thesoftwareguy.in
- * @facebook https://www.facebook.com/Thesoftwareguy7
- * @twitter https://twitter.com/thesoftwareguy7
- * @googleplus https://plus.google.com/+thesoftwareguyIn
- */
 
 $page_id = $pageDetails["page_id"];
 if ($_GET["id"] <> "") {
-    // if we are on page.php page. get the parent id and fetch their related subpages
     $sql = "SELECT * FROM " . TABLE_PAGES . " WHERE status = 'A' AND parent = :parent ORDER BY sort_order ASC";
     try {
         $stmt = $DB->prepare($sql);
@@ -21,7 +13,7 @@ if ($_GET["id"] <> "") {
     }
 
 } elseif ($page_id <> "") {
-    // On any other Page get the page id and fetch their related subpages
+
    $sql = "SELECT * FROM " . TABLE_PAGES . " WHERE status = 'A' AND parent = :parent ORDER BY sort_order ASC";
     try {
         $stmt = $DB->prepare($sql);
